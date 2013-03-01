@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
-        <id>BrowserStack</id>
+        <id>BrowserStack-45</id>
         <version>2.0.0</version>
         <title>BrowserStack Automated testing API for .NET</title>
         <authors>Aaron Powell,Werner van Deventer</authors>
@@ -19,6 +19,6 @@
         </dependencies>
     </metadata>
     <files>
-        <file src="bin\Release\BrowserStack.dll" target="lib\net35\BrowserStack.dll" />
+        <file src="bin\**\BrowserStack.dll" target="lib\net45\BrowserStack.dll" />
     </files>
 </package>
